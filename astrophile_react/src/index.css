@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body {
+	/* background-color: #312455; */
+	/* background-color: white; */
+	font-family: 'Quicksand';
+	scroll-behavior: smooth;
+}
+
+/* Background */
+.video-background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto; /* Ubah properti overflow menjadi auto atau scroll */
+}
+
+.video-background video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: -1;
+}
+
+/* Link Active pada navigasi */
+.active {
+	color: yellow;
+	font-weight: bold;
+}
+
+/* Animasi Fade ketika berpindah laman */
+.fade-enter {
+	opacity: 0;
+}
+
+.fade-enter-active {
+	opacity: 1;
+	transition: opacity 500ms ease-in;
+}
+
+.fade-exit {
+	opacity: 1;
+}
+
+.fade-exit-active {
+	opacity: 0;
+	transition: opacity 500ms ease-in;
+}
+
+/* Background Login */
+.bg_custom {
+	background-color: rgba(255, 255, 255, 0.125);
+	opacity: blur(30px);
+	/* background: transparent;
+	border: 2px solid rgba(255, 255, 255, 0.5);
+	border-radius: 20px;
+	backdrop-filter: blur(3px); */
+}
+
+/* Animasi Up Down */
+.animated-image {
+	position: relative;
+	animation-name: move-up-down;
+	animation-duration: 1.2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.judul {
+	line-height: 64px;
+}
+
+@keyframes move-up-down {
+	from {
+		transform: translateY(0);
+	}
+	to {
+		transform: translateY(20px);
+	}
+}
+
+.latar-belakang {
+	background: url('../src/images/banner-bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bg-dashboard {
+	background: url('../src/images/bg_dashboard.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.background-planet {
+	background: url('../src/images/background-planet.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.scroll-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	padding: 10px;
+	border: none;
+	border-radius: 30px;
+	background-color: #100b37;
+	opacity: 0.8;
+	color: #fff;
+	cursor: pointer;
+}
