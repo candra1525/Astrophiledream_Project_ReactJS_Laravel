@@ -1,0 +1,44 @@
+-- Command Laravel
+-- composer install
+-- php artisan key:generate
+-- php artisan migrate:fresh --seed / php artisan migrate:refresh --seed
+-- php artisan serve 
+
+JWT : https://jwt-auth.readthedocs.io/en/develop/laravel-installation/
+Install ke laravel :
+composer require tymon/jwt-auth
+php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
+php artisan jwt:secret
+
+Tambahkan ini di User Model :
+https://jwt-auth.readthedocs.io/en/develop/quick-start/
+- Update your User model
+- Configure Auth guard
+- Add some basic authentication routes
+- Create the AuthController
+
+REACT JS
+react router
+https://reactrouter.com/en/main
+npm install react-router-dom
+
+axios
+npm install axios
+
+react-icons
+npm install react-icons --save
+
+react-typed
+npm install react-typed --save
+
+sweet Alert
+npm install sweetalert2
+
+React Loading
+npm install react-loading
+
+Material UI
+npm install @mui/material @emotion/react @emotion/styled
+
+Bcrypt 
+npm install bcrypt
