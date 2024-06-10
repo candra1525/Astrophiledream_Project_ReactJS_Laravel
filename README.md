@@ -20,7 +20,7 @@
 ![Astronaut](https://github.com/candra1525/Astrophiledream_Project_ReactJS_Laravel/blob/main/astronaut.png)
 
 ### Rocket 
-![Rocket](https://github.com/candra1525/Astrophiledream_Project_ReactJS_Laravel/blob/main/planet.png)
+![Rocket](https://github.com/candra1525/Astrophiledream_Project_ReactJS_Laravel/blob/main/rocket.png)
 
 ### Planet 
 ![Planet](https://github.com/candra1525/Astrophiledream_Project_ReactJS_Laravel/blob/main/planet.png)
@@ -41,7 +41,7 @@
 ![Astronaut Login](https://github.com/candra1525/Astrophiledream_Project_ReactJS_Laravel/blob/main/astronaut_login.png)
 
 ### Rocket Login
-![Rocket Login](https://github.com/candra1525/Astrophiledream_Project_ReactJS_Laravel/blob/main/planet_login.png)
+![Rocket Login](https://github.com/candra1525/Astrophiledream_Project_ReactJS_Laravel/blob/main/rocket_login.png)
 
 ### Planet Login
 ![Planet Login](https://github.com/candra1525/Astrophiledream_Project_ReactJS_Laravel/blob/main/planet_login.png)
